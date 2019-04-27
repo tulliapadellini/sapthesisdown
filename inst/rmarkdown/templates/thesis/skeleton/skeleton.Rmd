@@ -1,7 +1,7 @@
 ---
 author: 'Your R. Name'
 date: 'May 20xx'
-institution: 'Reed College'
+institution: 'Sapienza'
 division: 'Mathematics and Natural Sciences'
 advisor: 'Advisor F. Name'
 # If you have more two advisors, un-silence line 7
@@ -12,8 +12,8 @@ title: 'My Final College Paper'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
-#  sapthesisdown::thesis_pdf: default
-  sapthesisdown::thesis_gitbook: default
+  sapthesisdown::thesis_pdf: default
+#  sapthesisdown::thesis_gitbook: default
 #  sapthesisdown::thesis_word: default
 #  sapthesisdown::thesis_epub: default
 # If you are creating a PDF you'll need to write your preliminary content (e.g., abstract, acknowledgements) here or
