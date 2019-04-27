@@ -132,18 +132,13 @@ $endif$
 % End of CII addition
 
 
-%\course{Fisica}
-
-
-\examdate{$date$}
 $if(examdate)$
 \examdate{$examdate$}
 $endif$
 
-
-\examiner{Prof. Nome Cognome}
-\examiner{Prof. Nome Cognome}
-\examiner{Dr. Nome Cognome}
+$if(examiner)$
+\examiner{$examiner$}
+$endif$
 
 
 % Added by CII
