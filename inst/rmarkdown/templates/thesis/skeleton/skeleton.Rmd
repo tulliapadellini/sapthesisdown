@@ -2,12 +2,10 @@
 author: 'Your R. Name'
 date: 'May 20xx'
 institution: 'Sapienza'
-division: 'Mathematics and Natural Sciences'
 advisor: 'Advisor F. Name'
 # If you have more two advisors, un-silence line 7
 #altadvisor: 'Your Other Advisor'
-department: 'Mathematics'
-degree: 'Bachelor of Arts'
+degree: 'Lau'
 title: 'My Final College Paper'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
