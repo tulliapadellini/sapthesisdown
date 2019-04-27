@@ -11,5 +11,5 @@
 #' @section thesis_epub:
 #' Creates an R Markdown thesis template as an ebook
 #' @docType package
-#' @name thesisdown
+#' @name sapthesisdown
 NULL
