@@ -80,6 +80,11 @@ $endif$
 
 % To pass between YAML and LaTeX the dollar signs are added by CII
 \title{$title$}
+$if(subtitle)$
+\subtitle{$subtitle$}
+$endif$
+
+
 \author{$author$}
 \date{$date$}
 
@@ -98,7 +103,7 @@ $endif$
 
 \courseorganizer{Facoltà/Dipartimento}
 $if(courseorganizer)$
-\courseorganizer{courseorganizer}
+\courseorganizer{$courseorganizer$}
 $endif$
 
 \IDnumber{123456}
