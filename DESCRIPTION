@@ -4,10 +4,9 @@ Version: 0.0.1
 Authors@R: c(
     person("Tullia", "Padellini", email = "tullia.padellini@uniroma1.it", role = "cre"),
     person("Francesco", "Biccari", email = "biccari@gmail.com", role = "aut"))
-Description: Using the bookdown package and LaTeX and Word thesis templates from
-    Reed College, this package aims to encourage reproducible research using
-    simple Markdown syntax while embedding all of the R code to produce plots
-    and analyses as well.
+Description: This is an adaptation of the thesisdown package to the sapthesis LaTeX template. 
+    It can be used to write Bachelor, Master, PhD and specialization theses following the 
+    guidelines of Sapienza University of Rome.
 Maintainer: Tullia Padellini <tullia.padellini@uniroma1.it>
 Depends:
     R (>= 3.2.0),

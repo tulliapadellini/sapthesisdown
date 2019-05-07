@@ -1,7 +1,7 @@
 #' Creates an R Markdown PDF Thesis document
 #'
 #' This is a function called in output in the YAML of the driver Rmd file
-#' to specify using the Reed College Senior Thesis LaTeX template and cls files.
+#' to specify using the sapthesis LaTeX template and cls files.
 #'
 #' @export
 #' @param toc A Boolean (TRUE or FALSE) specifying whether table of contents should be created
@@ -72,7 +72,7 @@ thesis_gitbook <- function(...){
 #'
 #' @export
 #' @return A Word Document based on (hopefully soon, but not currently)
-#' the Reed Senior Thesis Word template
+#' the sapthesis template
 #' @examples
 #' \dontrun{
 #'  output: thesisdown::thesis_word

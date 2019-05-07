@@ -1,12 +1,11 @@
 ---
 author: 'Your R. Name'
-date: 'May 20xx'
+date: 'July 20xx'
 institution: 'Sapienza'
 advisor: 'Advisor F. Name'
-# If you have more two advisors, un-silence line 7
-#altadvisor: 'Your Other Advisor'
+coadvisor: 'Co-Advisor Name'
 degree: 'Lau'
-title: 'My Final College Paper'
+title: 'My Amazing Thesis'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
@@ -22,7 +21,7 @@ bibliography: bib/thesis.bib
 csl: csl/apa.csl
 lot: true
 lof: true
-# If you prefer blank lines between paragraphs, un-silence lines  40-41 (this requires package tikz)
+# If you prefer blank lines between paragraphs, un-silence the following lines (this requires package tikz to be installed)
 #header-includes:
 #- \usepackage{tikz}
 ---
@@ -41,7 +40,7 @@ If you receive a duplicate label error after knitting, make sure to delete the i
 
 ```{r include_packages, include = FALSE}
 # This chunk ensures that the sapthesisdown package is
-# installed and loaded. This thesisdown package includes
+# installed and loaded. This sapthesisdown package includes
 # the template files for the thesis.
 if(!require(devtools))
   install.packages("devtools", repos = "http://cran.rstudio.com")
@@ -64,7 +63,7 @@ on chapters.
 
 # Introduction {.unnumbered}
 
-Welcome to the _R Markdown_ thesis template. This template is based on (and in many places copied directly from) the Reed College LaTeX template, but hopefully it will provide a nicer interface for those that have never used TeX or LaTeX before.  Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well.  The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
+Welcome to the _R Markdown_ thesis template. This package is based on (and in many places, like here, copied directly from) the thesidown package. Its aim is to provide a nicer interface for those that have never used TeX or LaTeX before.  Using _R Markdown_ will also allow you to easily keep track of your analyses in **R** chunks of code, with the resulting plots and output included as well. The hope is this _R Markdown_ template gets you in the habit of doing reproducible research, which benefits you long-term as a researcher, but also will greatly help anyone that is trying to reproduce or build onto your results down the road.
 
 Hopefully, you won't have much of a learning period to go through and you will reap the benefits of a nicely formatted thesis.  The use of LaTeX in combination with _Markdown_ is more consistent than the output of a word processor, much less prone to corruption or crashing, and the resulting file is smaller than a Word file. While you may have never had problems using Word in the past, your thesis is likely going to be about twice as large and complex as anything you've written before, taxing Word's capabilities.  After working with _Markdown_ and **R** together for a few weeks, we are confident this will be your reporting style of choice going forward.
 

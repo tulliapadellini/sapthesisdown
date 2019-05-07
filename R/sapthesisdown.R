@@ -1,5 +1,5 @@
-#' thesisdown: A package for creating undergraduate, Masters, and PhD theses
-#'using R Markdown
+#' sapthesisdown: A package for creating undergraduate, Masters, and PhD theses
+#'using the sapthesis LaTeX template in R Markdown
 #'
 #'
 #' @section thesis_gitbook:
