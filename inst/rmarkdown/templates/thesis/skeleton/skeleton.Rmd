@@ -9,6 +9,7 @@ copyyear: '2020'
 advisor: 'Advisor F. Name'
 authoremail: 'your\@mail.com'
 degree: 'Lau'
+options: 'draft, english'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
