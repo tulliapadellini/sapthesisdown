@@ -1,11 +1,14 @@
 ---
-author: 'Your R. Name'
-date: 'July 20xx'
-institution: 'Sapienza'
-advisor: 'Advisor F. Name'
-coadvisor: 'Co-Advisor Name'
-degree: 'Lau'
 title: 'My Amazing Thesis'
+author: 'Your R. Name'
+IDnumber: '1234567'
+course: 'Scienze Statistiche e Decisionali'
+courseorganizer: 'Dipartimento di Scienze Statistiche'
+date: 'July 20xx'
+copyyear: '2020'
+advisor: 'Advisor F. Name'
+authoremail: 'your\@mail.com'
+degree: 'Lau'
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 output: 
