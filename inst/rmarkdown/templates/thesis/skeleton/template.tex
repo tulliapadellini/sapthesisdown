@@ -80,46 +80,55 @@ $endif$
 
 % To pass between YAML and LaTeX the dollar signs are added by CII
 \title{$title$}
+
 $if(subtitle)$
 \subtitle{$subtitle$}
 $endif$
 
-
 \author{$author$}
+
+\IDnumber{$IDnumber$}
+
+\course{$course$}
+
+\courseorganizer{$courseorganizer$}
+
 \date{$date$}
 
-\authoremail{your@mail.com}
-$if(authoremail)$
-\authoremail{$authoremail$}
-$endif$
-
-\advisor{$advisor$}
-\coadvisor{$coadvisor$}
-
-\course{Corso di Laurea}
-$if(course)$
-\course{$course$}
-$endif$
-
-\courseorganizer{Facoltà/Dipartimento}
-$if(courseorganizer)$
-\courseorganizer{$courseorganizer$}
-$endif$
-
-\IDnumber{123456}
-$if(IDnumber)$
-\IDnumber{$IDnumber$}
-$endif$
-
-
-\AcademicYear{2019/2020}
 $if(AcademicYear)$
 \AcademicYear{$AcademicYear$}
 $endif$
 
-\copyyear{2019/2020}
-$if(copyyear)$
 \copyyear{$copyyear$}
+
+\advisor{$advisor$}
+
+$if(coadvisor)$
+\coadvisor{$coadvisor$}
+$endif$
+
+$if(reviewer)$
+\reviewer{reviewer}
+$endif$
+
+\authoremail{$authoremail$}
+
+
+$if(versiondate)$
+\versiondate{versiondate}
+$endif$
+
+
+$if(website)$
+\website{website}
+$endif$
+
+$if(ISBN)$
+\ISBN{ISBN}
+$endif$
+
+$if(copyrightstatement)$
+\copyrightstatement{copyrightstatement}
 $endif$
 
 $if(examdate)$
@@ -130,6 +139,37 @@ $if(examiner)$
 \examiner{$examiner$}
 $endif$
 
+$if(cycle)$
+\cycle{cycle}
+$endif$
+
+$if(director)$
+\director{director}
+$endif$
+
+$if(tutor)$
+\tutor(tutor)
+$endif$
+
+$if(tutorcoord)$
+\tutorcoord(tutorcoord)
+$endif$
+
+$if(schoolname)$
+\schoolname(schoolname)
+$endif$
+
+$if(schooladdress)$
+\schooladdress(schooladdress)
+$endif$
+
+$if(schoolwebsite)$
+\schoolwebsite(schoolwebsite)
+$endif$
+
+$if(schoolprincipal)$
+\schoolprincipal(schoolprincipal)
+$endif$
 
 % Added by CII
 %%% Copied from knitr
