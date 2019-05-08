@@ -53,11 +53,9 @@ and the thesis in a different language.
 
 * **`copyyear`**: Copyright year (usually the  graduation year). 
 
-* **`advisor`**: You must specify at least one advisor.
-If you have more than one advisor, put several advisor commands in the correct order:\\
-\texttt{\bs advisor\{Prof.~Pippo\}} \texttt{\bs advisor\{Dr.~Pluto\}}
+* **`advisor`**: You must specify one advisor.
 
-* `coadvisor`: Co-advisors of the thesis. Same syntax of the `advisor` command. 
+* `coadvisor`: Co-advisors of the thesis.
 
 * `reviewer`: Reviewers of the thesis. 
 Same syntax of the \texttt{\bs advisor} command. The list of the reviewer is preceded by the a text which can be specified by the \texttt{\bs reviewerlabel\{\dots\}} command.
