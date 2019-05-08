@@ -57,8 +57,7 @@ and the thesis in a different language.
 If you have more than one advisor, put several advisor commands in the correct order:\\
 \texttt{\bs advisor\{Prof.~Pippo\}} \texttt{\bs advisor\{Dr.~Pluto\}}
 
-*[\texttt{\bs coadvisor[\dots]\{\dots\}}] Optional. Co-advisors of the thesis. 
-Same syntax of the \texttt{\bs advisor} command. If the optional argument \texttt{ext} is specified, ``External advisor'' will be printed instead of ``Co-Advisor''.
+* `coadvisor`: Co-advisors of the thesis. Same syntax of the `advisor` command. 
 
 * `reviewer`: Reviewers of the thesis. 
 Same syntax of the \texttt{\bs advisor} command. The list of the reviewer is preceded by the a text which can be specified by the \texttt{\bs reviewerlabel\{\dots\}} command.
